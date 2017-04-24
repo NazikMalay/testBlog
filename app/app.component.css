@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #122538;
+    height: 56px;
+    min-height: 56px;
+    padding: 0;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.24);
+    color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px ;
+}
+
+
+header h1 {
+  color: #c8e0ab;
+    font-weight: 400;
+    margin: 0 0 0 10px;
+    transition : all 2s linear;
+}
+header h1:hover{
+    color: #ad000a;
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+main {
+    width: 600px;
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}

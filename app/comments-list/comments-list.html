@@ -1,0 +1,3 @@
+<div class="comments-list" *ngIf="commnts.length" >
+    <commentForm *ngFor="let comments of commnts" [comments] = "comments"></commentForm>
+</div>

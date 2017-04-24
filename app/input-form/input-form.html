@@ -1,0 +1,7 @@
+<form (ngSubmit)="addTodo(); inputForm.reset()" #inputForm="ngForm" class="todo-form" >
+			<input type="text" [(ngModel)]="displayName" name="displayName" placeholder="Add post name"  required/>
+      <br>
+			<input type="text" [(ngModel)]="message" name="message" placeholder="Add new post" required/>
+			<br />
+			<input type="submit" value="Add" />
+    </form>
