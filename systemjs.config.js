@@ -15,8 +15,9 @@
             '@angular/router': 'npm:@angular/router/bundles/router.umd.js',
             '@angular/forms': 'npm:@angular/forms/bundles/forms.umd.js',
             'rxjs': 'npm:rxjs',
-            'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js'
-            // 'angular2-cool-storage': 'npm:angular2-cool-storage'
+            'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js',
+            'angular2-datatable': 'npm:angular2-datatable',
+            'lodash': 'npm:lodash/lodash.js'
         },
         packages: {
             app: {
@@ -25,7 +26,12 @@
             },
             rxjs: {
                 defaultExtension: 'js'
+            },
+            'angular2-datatable': {
+                main: 'index.js',
+                defaultExtension: 'js'
             }
+
         }
     });
 })(this);

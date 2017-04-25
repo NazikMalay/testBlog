@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { DataTableModule } from "angular2-datatable";
 
 import { AppComponent } from './app.component';
 import { CommentsList } from './comments-list/comments-list';
@@ -12,7 +13,8 @@ import { CommentForm } from './comment-form/comment-form';
   imports:[
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    DataTableModule
   ],
   declarations: [
     AppComponent,

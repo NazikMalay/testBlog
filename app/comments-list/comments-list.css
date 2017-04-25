@@ -1,0 +1,28 @@
+.comments-list{
+  width: 700px;
+}
+tfoot > tr >td{
+  padding-left: 70%;
+}
+.bodypost{
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 5px;
+}
+.datePost{
+  font-size: 0.9em;
+  padding: 0 80%;
+  margin-top: -17px;
+
+}
+.namePost{
+  margin: auto;
+  text-align: center;
+  padding: 10px 20px;
+  padding-bottom: 15px;
+  font-size: 1.3em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.messagePost{
+  text-indent: 40px;
+  padding: 0 10px;
+}
