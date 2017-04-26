@@ -50,12 +50,11 @@ button {
   border         : none;
   border-radius  : 2px;
   background     : 0 0;
-  text-transform : uppercase;
   font-family    : 'Roboto',
                    Helvetica,
                    Arial,
                    sans-serif;
-  font-size      : 14px;
+  font-size      : 18px;
   font-weight    : 500;
   letter-spacing : 0;
 }
