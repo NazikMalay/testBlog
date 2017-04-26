@@ -10,11 +10,6 @@ export const DataComents = [
         createdAt: '2015-02-07T13:33:06+00:00'
     },
     {
-        displayName: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
-        message: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et',
-        createdAt: '2017-09-12T13:33:06+00:00'
-    },
-    {
         displayName: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor',
         message: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et',
         createdAt: '2017-09-15T13:33:06+00:00'
