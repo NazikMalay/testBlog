@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { DataComents } from '../shared/comments';
+import { BlogService } from '../service/service';
 import { CommentModel } from '../models/commentModel';
-
 
 
 @Component({
@@ -12,17 +11,11 @@ import { CommentModel } from '../models/commentModel';
 
 })
 export class CommentsList implements OnInit {
-    constructor() {
-
-    }
-    Datacomment: any = DataComents;
-    saved: any;
-    commnts: any;
+  commnts: CommentModel[];
+constructor(private blogService : BlogService){
+  this.commnts=[];
+}
     ngOnInit() {
-        this.saved = localStorage.getItem('comments');
-        this.commnts = (localStorage.getItem('comments') !== null) ? JSON.parse(this.saved) : this.Datacomment;
-        localStorage.setItem('comments', JSON.stringify(this.commnts));
-
+        this.commnts = this.blogService.getContent();
     }
-
 }

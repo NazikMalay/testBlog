@@ -23,6 +23,9 @@ tfoot > tr >td{
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 .messagePost{
+  word-wrap:break-word;
+  width: 700px;
+  text-align: center;
   text-indent: 40px;
   padding: 0 10px;
 }

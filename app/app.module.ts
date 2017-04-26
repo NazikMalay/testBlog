@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { CommentsList } from './comments-list/comments-list';
 import { InputCommentsForm } from './input-form/input-form';
 import { CommentForm } from './comment-form/comment-form';
+import { BlogService } from './service/service';
 
 @NgModule({
   imports:[
@@ -22,6 +23,7 @@ import { CommentForm } from './comment-form/comment-form';
     InputCommentsForm,
     CommentForm
   ],
+  providers: [BlogService],
   bootstrap: [AppComponent]
 
 })
